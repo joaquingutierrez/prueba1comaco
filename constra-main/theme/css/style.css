@@ -2487,6 +2487,7 @@ img.testimonial-thumb {
 }
 
 #back-to-top .btn.btn-primary {
+  margin-right: 40px;
   width: 36px;
   height: 36px;
   line-height: 36px;
@@ -2518,7 +2519,7 @@ img.testimonial-thumb {
   bottom: 1rem;
   border: none; }
   .whatsapp img {
-    height: 4rem; }
+    height: 3rem; }
 
 
 /* Sub Pages
@@ -3362,5 +3363,15 @@ label {
 .error-page .error-body .btn {
   margin-top: 30px;
   font-weight: 700;
+}
+
+@media(max-width: 767px){
+  .whatsapp img{
+    margin-bottom: 40px;
+  }
+
+  #back-to-top button{
+    margin-right: 10px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
